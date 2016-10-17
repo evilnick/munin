@@ -80,6 +80,17 @@ def handle(event,data):
 def issue_handler(data):
     print("action = {}".format(data['action']))
 
+@app.route('/issues')
+def issue():
+    return "<html><head></head><body>nin</h1><p>The crow watches</></body></html>"
 
+@app.route('/MAAS')
+def issue():
+    return "<html><head></head><body>nin</h1><p>The crow watches</></body></html>"
+
+@app.route('/Juju')
+def issue():
+    return "<html><head></head><body>nin</h1><p>The crow watches</></body></html>"
+    
 if __name__ == '__main__':
     app.run()  
