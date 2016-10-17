@@ -1,3 +1,17 @@
+
+# Virtenv
+
+/bin/*
+/lib/*
+/include/*
+/local/*
+/share/*
+
+
+#python
+
+*.pyc
+
 # http://www.gnu.org/software/automake
 
 Makefile.in
